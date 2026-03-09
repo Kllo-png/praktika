@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Велюр",
+      "category": "Ткань",
+      "price": 850,
+      "unit": "метр",
+      "color": "Изумрудный",
+      "image": "image/fabric_velur.jpg",
+      "description": "Мягкая бархатистая ткань, устойчива к истиранию",
+      "stock": 45,
+      "suitableFor": ["Диван", "Кресло"]
+    },
+    {
+      "id": 2,
+      "name": "Кожа натуральная",
+      "category": "Ткань",
+      "price": 3500,
+      "unit": "метр",
+      "color": "Коричневый",
+      "image": "image/fabric_leather.jpg",
+      "description": "Натуральная кожа высокого качества, премиум класс",
+      "stock": 12,
+      "suitableFor": ["Диван", "Кресло"]
+    },
+    {
+      "id": 3,
+      "name": "Жаккард",
+      "category": "Ткань",
+      "price": 1200,
+      "unit": "метр",
+      "color": "Бежевый с узором",
+      "image": "image/fabric_jacquard.jpg",
+      "description": "Плотная ткань с рельефным рисунком, износостойкая",
+      "stock": 30,
+      "suitableFor": ["Диван", "Кресло", "Стул"]
+    },
+    {
+      "id": 4,
+      "name": "Микрофибра",
+      "category": "Ткань",
+      "price": 650,
+      "unit": "метр",
+      "color": "Синий",
+      "image": "image/fabric_microfiber.jpg",
+      "description": "Антивандальная ткань, легко чистится",
+      "stock": 55,
+      "suitableFor": ["Диван", "Кресло", "Стул", "Пуфик"]
+    },
+    {
+      "id": 5,
+      "name": "Шенилл",
+      "category": "Ткань",
+      "price": 950,
+      "unit": "метр",
+      "color": "Серый",
+      "image": "image/fabric_chenille.jpg",
+      "description": "Мягкая, приятная на ощупь, гипоаллергенная",
+      "stock": 25,
+      "suitableFor": ["Диван", "Кресло", "Пуфик"]
+    },
+    {
+      "id": 6,
+      "name": "Поролон",
+      "category": "Наполнитель",
+      "price": 450,
+      "unit": "лист",
+      "color": "Белый",
+      "image": "image/porolon.jpg",
+      "description": "Эластичный наполнитель, плотность 35 кг/м³",
+      "stock": 100,
+      "suitableFor": ["Диван", "Кресло", "Стул", "Пуфик"]
+    },
+    {
+      "id": 7,
+      "name": "Синтепон",
+      "category": "Наполнитель",
+      "price": 250,
+      "unit": "метр",
+      "color": "Белый",
+      "image": "image/sintepon.jpg",
+      "description": "Легкий объемный наполнитель для подушек",
+      "stock": 80,
+      "suitableFor": ["Подушки", "Пуфик"]
+    },
+    {
+      "id": 8,
+      "name": "Механизм еврокнижка",
+      "category": "Фурнитура",
+      "price": 2900,
+      "unit": "шт",
+      "color": "Металлик",
+      "image": "image/mechanism.jpg",
+      "description": "Механизм трансформации для дивана",
+      "stock": 8,
+      "suitableFor": ["Диван"]
+    },
+    {
+      "id": 9,
+      "name": "Ножки для дивана",
+      "category": "Фурнитура",
+      "price": 350,
+      "unit": "комплект",
+      "color": "Хром",
+      "image": "image/legs.jpg",
+      "description": "Комплект из 4 ножек, высота 10 см",
+      "stock": 20,
+      "suitableFor": ["Диван", "Кресло"]
+    },
+    {
+      "id": 10,
+      "name": "Рогожка",
+      "category": "Ткань",
+      "price": 550,
+      "unit": "метр",
+      "color": "Бежевый",
+      "image": "image/fabric_rogozhka.jpg",
+      "description": "Прочная ткань полотняного переплетения",
+      "stock": 40,
+      "suitableFor": ["Диван", "Кресло", "Стул"]
+    },
+    {
+      "id": 11,
+      "name": "Флок",
+      "category": "Ткань",
+      "price": 480,
+      "unit": "метр",
+      "color": "Фиолетовый",
+      "image": "image/fabric_flock.jpg",
+      "description": "Мягкая ткань с бархатистой поверхностью",
+      "stock": 35,
+      "suitableFor": ["Диван", "Кресло", "Пуфик"]
+    },
+    {
+      "id": 12,
+      "name": "Экокожа",
+      "category": "Ткань",
+      "price": 780,
+      "unit": "метр",
+      "color": "Черный",
+      "image": "image/ecoleather.jpg",
+      "description": "Искусственная кожа, дышащая и износостойкая",
+      "stock": 50,
+      "suitableFor": ["Диван", "Кресло", "Стул"]
+    }
+  ]
+}

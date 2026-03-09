@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #f7c873 !important;
 }
 .dropdown-item:hover {
-  color: #f7c873;
+  color: #000000;
 }
 
 .logo-img {
@@ -285,4 +285,269 @@ color: #f7c873;
   .mobile-menu-btn, .messengers-mobile, .dropdown-menu-mobile {
     display: none !important;
   }
+}
+
+#game-section {
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+}
+
+.fabric-card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.game-result {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.fabric-sample {
+  transition: transform 0.3s;
+}
+
+.fabric-card:hover .fabric-sample {
+  transform: scale(1.1);
+}
+
+@media (max-width: 767.98px) {
+  #game-section h2 {
+    font-size: 2rem !important;
+  }
+  
+  .fabric-card {
+    margin-bottom: 10px;
+  }
+}
+
+.btn-warning.position-fixed {
+  background-color: #f7c873 !important;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Для свайпа на мобильных */
+@media (max-width: 767.98px) {
+  .review-carousel {
+      touch-action: pan-y;
+  }
+}
+
+/* Для подсветки при перетаскивании */
+.before-after-container.dragging {
+  opacity: 0.9;
+}
+
+/* ========== УПРОЩЕННЫЕ СТИЛИ ДЛЯ ФОРМ ========== */
+#simple-form .form-control:focus,
+#simple-form .form-select:focus {
+    border-color: #f7c873;
+    box-shadow: 0 0 0 0.2rem rgba(247, 200, 115, 0.25);
+}
+
+#simple-form.was-validated .form-control:invalid,
+#simple-form .form-control.is-invalid {
+    border-color: #dc3545;
+}
+
+#simple-form.was-validated .form-control:valid,
+#simple-form .form-control.is-valid {
+    border-color: #28a745;
+}
+
+#simple-result {
+    max-height: 200px;
+    overflow-y: auto;
+    font-size: 0.9rem;
+}
+
+#regex-simple-result {
+    min-height: 50px;
+}
+
+.btn-gold {
+    background-color: #f7c873 !important;
+    border-color: #f7c873;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-gold:hover {
+    background-color: #e6b85c !important;
+}
+
+
+/* ========== СТИЛИ ДЛЯ КАТАЛОГА И КОРЗИНЫ ========== */
+.product-card {
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+    border-color: #f7c873;
+}
+
+.product-img-container {
+    height: 180px;
+    background: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.product-img {
+    max-height: 150px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.product-body {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.product-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.product-category {
+    font-size: 0.8rem;
+    color: #f7c873;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.product-price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.product-unit {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.product-stock {
+    font-size: 0.8rem;
+    color: #28a745;
+}
+
+.add-to-cart-btn {
+    background-color: #f7c873;
+    border: none;
+    color: #000;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 30px;
+    transition: all 0.2s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #e6b85c;
+    transform: scale(1.05);
+}
+
+.add-to-cart-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-item-info {
+    flex-grow: 1;
+}
+
+.cart-item-title {
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.cart-item-price {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.cart-item-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-item-quantity {
+    width: 60px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cart-item-remove {
+    color: #dc3545;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.cart-item-remove:hover {
+    color: #a71d2a;
+}
+
+/* ========== СТИЛИ ДЛЯ ФОРМ COOKIE И LOCAL STORAGE ========== */
+#cookie-result, #local-result {
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    font-family: monospace;
+}
+
+.nav-tabs .nav-link {
+    color: #495057;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link.active {
+    color: #000;
+    font-weight: 700;
+    border-bottom: 3px solid #f7c873;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 767.98px) {
+    .product-img-container {
+        height: 150px;
+    }
+    
+    .product-img {
+        max-height: 120px;
+    }
+    
+    .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .cart-item-controls {
+        margin-top: 10px;
+        width: 100%;
+        justify-content: flex-end;
+    }
 }
